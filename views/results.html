@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="tute.css"/>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+            <style>
+                table,th,td {
+                    border: 1px solid black;
+                }
+            </style>
+    </head>
+
+    <body>
+        <a href="/">Home</a>
+        <h1>You're parcels:</h1>
+        <table class="table table-hover table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Sender</th>
+                <th>Address</th>
+                <th>Weight</th>
+                <th>Fragile</th>
+                <th>Description</th>
+                <th>Shipment Type</th>
+                <th>Cost</th>
+            </tr>
+            <% for ( let i =0; i< db.length;i++){ %>
+                <tr>
+                    <td>
+                        <%= db[i]._id%>
+                    </td>
+                    <td>
+                        <%= db[i].sender %>
+                    </td>
+                    <td>
+                        <%= db[i].address %>
+                    </td>
+                    <td>
+                        <%= db[i].weight %>
+                    </td>
+                    <td>
+                        <%= db[i].fragile %>
+                    </td>
+                    <td>
+                        <%= db[i].desc %>
+                    </td>
+                    <td>
+                        <%= db[i].ship %>
+                    </td>
+                    <td>
+                        <%= db[i].cost %>
+                    </td>
+                </tr>
+                <% }%>
+     </table>      
+    </body>
+</html>

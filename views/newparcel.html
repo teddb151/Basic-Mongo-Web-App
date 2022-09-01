@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="tute.css"/>
+    </head>
+    <body>
+        <h1>New addition</h1>
+        <a href="/">Home</a>
+        <form action="newadd" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label>Sender</label>
+                    </td>
+                    <td>
+                        <input type="Text" name="sender"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address</label>
+                    </td>
+                    <td>
+                        <input type="Text" name="address"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Weight</label>
+                    </td>
+                    <td>
+                        <input type="number" name="Weight"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Fragile</label>
+                    </td>
+                    <td>
+                        <select name="Fragile">
+                            <option>true</option>
+                            <option>false</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Description</label>
+                    </td>
+                    <td>
+                        <input type="text" name="desc"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Shipment type</label>
+                    </td>
+                    <td>
+                        <select name="ship">
+                            <option>Standard</option>
+                            <option>Express</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>cost</label>
+                    </td>
+                    <td>
+                        <input type="number" name="cost"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
