@@ -1,3 +1,5 @@
+var util= require('util');
+var encoder = new util.TextEncoder('utf-8');
 const mongodb = require('mongodb');
 const express = require('express');
 const mongoose = require('mongoose');
