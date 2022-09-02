@@ -4,7 +4,7 @@ const mongodb = require('mongodb');
 const express = require('express');
 const mongoose = require('mongoose');
 const MongoClient = mongodb.MongoClient;
-const parcel = require('./models/Parcel');
+const parcel = require('./models/parcel');
 const url = 'mongodb://localhost:27017/ParcelsDatabase';
 const app = express();
 app.listen(8080);
