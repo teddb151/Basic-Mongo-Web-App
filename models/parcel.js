@@ -12,4 +12,8 @@ const parcelSchema = mongoose.Schema({
 
 })
 
+<<<<<<< HEAD
 module.exports = mongoose.model('parcel', parcelSchema);
+=======
+module.exports = mongoose.model('parcel', parcelSchema);
+>>>>>>> 3cbd7f8cda8c7283f43beb71e14fd110224a8c73
