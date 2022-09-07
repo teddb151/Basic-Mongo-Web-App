@@ -12,4 +12,4 @@ const parcelSchema = mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('Parcel', parcelSchema);
+module.exports = mongoose.model('parcel', parcelSchema);
